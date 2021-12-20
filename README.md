@@ -29,7 +29,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/HadisParsa/vigilance-fullstack">
+  <a href="https://github.com/jakecolledge97/vigilance-fullstack">
     <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/emojidex/112/page-facing-up_1f4c4.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -38,14 +38,14 @@
   <p align="center">
     A page one can create an account, log in, and post a simple blog style text page.
     <br />
-    <a href="https://github.com/HadisParsa/vigilance-fullstack"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/jakecolledge97/vigilance-fullstack"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/HadisParsa/vigilance-fullstack">View Demo</a>
+    <a href="https://github.com/jakecolledge97/vigilance-fullstack">View Demo</a>
     ·
-    <a href="https://github.com/HadisParsa/vigilance-fullstack/issues">Report Bug</a>
+    <a href="https://github.com/jakecolledge97/vigilance-fullstack/issues">Report Bug</a>
     ·
-    <a href="https://github.com/HadisParsa/vigilance-fullstack/issues">Request Feature</a>
+    <a href="https://github.com/jakecolledge97/vigilance-fullstack/issues">Request Feature</a>
   </p>
 </div>
 
@@ -82,9 +82,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This blog page is a simple application that a user can sign up/login, post an article,and comment on other articles. 
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `HadisParsa`, `vigilance-fullstack`, ``, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -92,14 +92,11 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Javascript](https://www.javascript.com/)
+* [express](https://expressjs.com/)
+* [node](https://nodejs.org/en/)
+* [mysql](https://www.mysql.com/)
+* [sequelize](https://sequelize.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -124,15 +121,17 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/HadisParsa/vigilance-fullstack.git
+   git clone https://github.com/jakecolledge97/vigilance-fullstack.git
    ```
 3. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+4. Edit you .ENV file
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   DB_NAME=blog_db
+   DB_USER=<user>
+   DB_PASSWORD=<password>;
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -147,22 +146,6 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
-
-See the [open issues](https://github.com/HadisParsa/vigilance-fullstack/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -185,7 +168,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -194,9 +177,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@](https://twitter.com/) - email@email_client.com
+ jakecolledgework@gmail.com
 
-Project Link: [https://github.com/HadisParsa/vigilance-fullstack](https://github.com/HadisParsa/vigilance-fullstack)
+Project Link: [https://github.com/jakecolledge97/vigilance-fullstack](https://github.com/jakecolledge97/vigilance-fullstack)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -205,9 +188,8 @@ Project Link: [https://github.com/HadisParsa/vigilance-fullstack](https://github
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Hadis](https://github.com/HadisParsa)
+* [Gurtej](https://github.com/gurtej154)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -215,16 +197,16 @@ Project Link: [https://github.com/HadisParsa/vigilance-fullstack](https://github
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/HadisParsa/vigilance-fullstack.svg?style=for-the-badge
-[contributors-url]: https://github.com/HadisParsa/vigilance-fullstack/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/HadisParsa/vigilance-fullstack.svg?style=for-the-badge
-[forks-url]: https://github.com/HadisParsa/vigilance-fullstack/network/members
-[stars-shield]: https://img.shields.io/github/stars/HadisParsa/vigilance-fullstack.svg?style=for-the-badge
-[stars-url]: https://github.com/HadisParsa/vigilance-fullstack/stargazers
-[issues-shield]: https://img.shields.io/github/issues/HadisParsa/vigilance-fullstack.svg?style=for-the-badge
-[issues-url]: https://github.com/HadisParsa/vigilance-fullstack/issues
-[license-shield]: https://img.shields.io/github/license/HadisParsa/vigilance-fullstack.svg?style=for-the-badge
-[license-url]: https://github.com/HadisParsa/vigilance-fullstack/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/jakecolledge97/vigilance-fullstack.svg?style=for-the-badge
+[contributors-url]: https://github.com/jakecolledge97/vigilance-fullstack/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jakecolledge97/vigilance-fullstack.svg?style=for-the-badge
+[forks-url]: https://github.com/jakecolledge97/vigilance-fullstack/network/members
+[stars-shield]: https://img.shields.io/github/stars/jakecolledge97/vigilance-fullstack.svg?style=for-the-badge
+[stars-url]: https://github.com/jakecolledge97/vigilance-fullstack/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jakecolledge97/vigilance-fullstack.svg?style=for-the-badge
+[issues-url]: https://github.com/jakecolledge97/vigilance-fullstack/issues
+[license-shield]: https://img.shields.io/github/license/jakecolledge97/vigilance-fullstack.svg?style=for-the-badge
+[license-url]: https://github.com/jakecolledge97/vigilance-fullstack/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/jake-colledge-462986223
 [product-screenshot]: images/screenshot.png
